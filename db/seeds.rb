@@ -23,3 +23,4 @@ end
   order.products << Product.find(Product.all.collect(&:id).sample)
 end
 
+puts "seeds done!"
